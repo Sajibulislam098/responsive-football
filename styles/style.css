@@ -118,7 +118,7 @@ main {
 
 .player {
     width: 330px;
-    height: 474px;
+    height: 500px;
     padding: 15px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(128, 128, 128, 0.37);
@@ -153,19 +153,16 @@ main {
     width: 200px;
 }
 
+.half-width {
+    width: 20%;
+}
+
 .details-width {
     width: 400px;
 }
 
 
 /* ===========================Fifa Match ================ */
-
-.visit-border {
-    border-left: 7px solid;
-    border-image: linear-gradient( lightsalmon, rgb(236, 27, 107));
-    border-image-slice: 1;
-    padding-left: 30px;
-}
 
 .fifa-cup img {
     width: 100%;
@@ -259,6 +256,9 @@ footer p {
         margin-top: 20px;
         margin-left: 20px;
     }
+    .half-width img {
+        margin-left: 50px;
+    }
     .fifa-cup img {
         width: 200px;
         justify-content: center;
@@ -266,6 +266,7 @@ footer p {
     }
     .player {
         margin: auto;
+        margin-bottom: 24px;
     }
     .players,
     .section-container {
@@ -307,6 +308,9 @@ footer p {
         margin-top: 20px;
         margin-left: 20px;
     }
+    .half-width img {
+        width: 250px
+    }
     .fifa-cup img {
         width: 200px;
         justify-content: center;
@@ -314,6 +318,7 @@ footer p {
     }
     .player {
         margin: auto;
+        margin-bottom: 24px;
     }
     .players,
     .section-container {
