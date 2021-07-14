@@ -162,7 +162,7 @@ main {
 
 .visit-border {
     border-left: 7px solid;
-    border-image: linear-gradient( lightsalmon, rgb(221, 25, 100));
+    border-image: linear-gradient( lightsalmon, rgb(236, 27, 107));
     border-image-slice: 1;
     padding-left: 30px;
 }
